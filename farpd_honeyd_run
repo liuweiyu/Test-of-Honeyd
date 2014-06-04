@@ -1,0 +1,2 @@
+cd /etc/honeypot/
+sudo farpd -i eth1 10.1.1.4-10.1.1.10 | sudo honeyd -d -f honeyd.conf -i eth1
