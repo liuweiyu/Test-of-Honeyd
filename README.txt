@@ -13,14 +13,14 @@ web_client.py: a simple python http web client used by users to request http ser
 2.Steps to run the demo:
 (1) Preparation and Put the code in place:
 In honeyd node:
-sudo apt-get install honeyd
-cp web.sh ~/
-cp farpd_honeyd_run.sh ~/
-sudo chmod +x farpd_honeyd_run.sh
+sudo apt-get install honeyd;
+cp web.sh ~/;
+cp farpd_honeyd_run.sh ~/;
+sudo chmod +x farpd_honeyd_run.sh;
 cp honeyd.conf /etc/honeypot/honeyd
 
 In cloudlet node:
-cp web_server.py ~/
+cp web_server.py ~/;
 cp monitor.py ~/
 
 In user nodes:
@@ -28,7 +28,7 @@ cp web_client.py ~/
 
 (2) Run the code:
 In honeyd node:
-cd ~/
+cd ~/;
 sudo ./farpd_honeyd_run.sh
 
 In cloudlet node:
